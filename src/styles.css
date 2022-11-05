@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.table_header tr th {
+  text-transform: uppercase;
+}
+
+.table_row {
+  padding: 0.5rem 1rem;
+  border: 1px solid red;
+}
+
+.table_row:nth-child(even) {
+  background-color: lightgray;
+}
